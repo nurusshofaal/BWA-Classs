@@ -1,0 +1,63 @@
+/* At Phone */
+
+.btn-primary{
+    background: #ff9900;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: #ec9614;
+    border: 0;
+}
+
+.btn-secondary{
+    background: none;
+    border: 1px #bcd0e5;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173a56;
+}
+
+.btn-secondary:hover{
+    background: #4c687e;
+    border: 0;
+}
+
+.bwahero .container .row img {
+    width: 460px;
+}
+
+.bwahero h1{
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.bwahero p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    width: 450px;
+}
+
+/* At Dekstop */
+@media (min-width: 992px) {
+    .bwahero .container .row img {
+        width: 600px;
+    }
+    .bwahero h1{
+        font-family: 'Poppins';
+        font-weight: 700;
+    }
+    
+    .bwahero p{
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
+
+    .gambar{
+        box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    }
+ }
